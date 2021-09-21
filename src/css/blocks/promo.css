@@ -1,7 +1,10 @@
+.promo {
+    padding-top: 145px;
+}
+
 .promo__container {
     width: 1190px;
     margin: 0 auto;
-    padding-top: 145px;
     position: relative;
 }
 
@@ -23,7 +26,7 @@
     width: 790px;
     height: 520px;
     position: absolute;
-    top: 50px;
+    top: -95px;
     right: 0;
 }
 
@@ -90,6 +93,7 @@
     margin-top: 50px;
     display: grid;
     grid-template: 35px / repeat(6, auto);
+    grid-auto-rows: auto;
 }
 
 .promo__brand-wrapper {

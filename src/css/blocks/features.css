@@ -1,0 +1,50 @@
+.features {
+    padding-top: 133px;
+}
+
+.features__wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.features__wrapper-text {
+    width: 542px;
+    margin: 0 auto;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.features__items {
+    margin-top: 48px;
+    display: grid;
+    grid-template: auto / repeat(auto-fill, 320px);
+    grid-auto-rows: auto;
+    justify-content: space-between;
+}
+
+.features__icon-wrapper {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 28px;
+}
+
+.features__icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.features__items-text {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.features__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.features__link:hover {
+    text-decoration: underline;
+}

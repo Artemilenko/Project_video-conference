@@ -1,8 +1,10 @@
 @import './base/fonts.css';
 @import './base/title.css';
+@import './base/name.css';
 @import './base/description.css';
 @import './blocks/header.css';
 @import './blocks/promo.css';
+@import './blocks/features.css';
 
 :root {
     --main-color: #18216D;
