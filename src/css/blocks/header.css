@@ -1,4 +1,4 @@
-.header__wrapper {
+.header__container {
     max-width: 1400px;
     margin: 0 auto;
     padding-top: 25px;
@@ -16,7 +16,6 @@
 }
 
 .menu__link {
-    color: var(--main-color);
     font-weight: 500;
     font-size: 18px;
 }
@@ -35,7 +34,6 @@
 .header__sign-in {
     background: none;
     border: none;
-    color: var(--main-color);
     font-weight: 500;
     font-size: 18px;
 }
@@ -50,11 +48,19 @@
     width: 136px;
     height: 52px;
     background-color: var(--main-color);
-    color: #FFFFFF;
+    color: var(--white-color);
     font-size: 18px;
     font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 6px;
+    border: 3px solid var(--main-color);
+    transition: all 0.3s ease;
+}
+
+.header__download:hover {
+    color: var(--main-color);
+    background-color: var(--white-color);
+    transition: all 0.3s ease;
 }

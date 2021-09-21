@@ -1,0 +1,10 @@
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--main-color);
+}
+
+.description--opacity {
+    opacity: 0.6;
+}
