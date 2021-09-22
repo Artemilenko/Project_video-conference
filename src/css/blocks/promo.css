@@ -36,8 +36,9 @@
     object-fit: contain;
 }
 
-.promo__wrapper-button {
-    margin-top: 57px;
+.promo__wrapper-text {
+    margin-top: 16px;
+    margin-bottom: 57px;
 }
 
 .promo__button {
