@@ -6,10 +6,13 @@
     align-items: center;
 }
 
+.header__menu {
+    flex-grow: 1;
+    padding-left: 110px;
+}
+
 .header__menu-list {
     width: 507px;
-    margin-left: 110px;
-    margin-right: 430px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +28,8 @@
 }
 
 .header__buttons {
-    width: 439px;
+    width: 239px;
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
