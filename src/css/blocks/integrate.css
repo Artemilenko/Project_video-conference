@@ -1,7 +1,7 @@
 .integrate {
     padding-top: 78px;
     padding-bottom: 78px;
-    background-color: var(--integrate-bg-color);
+    background-color: var(--light-ocean-color);
 }
 
 .integrate__container {
@@ -23,16 +23,17 @@
 
 .integrate__button {
     padding: 15px 27px;
-    background: var(--blue-button-color);
-    border: 3px solid var(--blue-button-color);
+    background: var(--light-blue-color);
+    border: 3px solid var(--light-blue-color);
     border-radius: 6px;
     font-weight: 500;
+    font-size: 16px;
     color: var(--white-color);
     transition: all 0.3s ease;
 }
 
 .integrate__button:hover {
-    color: var(--blue-button-color);
+    color: var(--light-blue-color);
     background-color: var(--white-color);
     transition: all 0.3s ease;
 }

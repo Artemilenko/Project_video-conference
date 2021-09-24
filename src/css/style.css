@@ -8,13 +8,16 @@
 @import './blocks/features.css';
 @import './blocks/integrate.css';
 @import './blocks/powering.css';
+@import './blocks/flexible.css';
 
 :root {
     --main-color: #18216D;
     --promo-btn-color: #00ECD0;
     --white-color: #ffffff;
-    --integrate-bg-color: #f2f7fe;
-    --blue-button-color: #005FEC;
+    --light-ocean-color: #e6effd;
+    --light-blue-color: #005FEC;
+    --flexible-border: #d3d4d4;
+    --dark-grey: #232629;
 }
 
 * {
