@@ -9,6 +9,7 @@
 @import './blocks/integrate.css';
 @import './blocks/powering.css';
 @import './blocks/flexible.css';
+@import './blocks/testimonial.css';
 
 :root {
     --main-color: #18216D;

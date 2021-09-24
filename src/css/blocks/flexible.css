@@ -47,6 +47,7 @@
 
 .flexible__plans {
     margin-top: 80px;
+    margin-bottom: 130px;
     display: grid;
     grid-template: auto / repeat(auto-fill, 355px);
     grid-auto-rows: auto;
