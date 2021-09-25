@@ -10,6 +10,8 @@
 @import './blocks/powering.css';
 @import './blocks/flexible.css';
 @import './blocks/testimonial.css';
+@import './blocks/footer.css';
+@import './blocks/author-layot.css';
 
 :root {
     --main-color: #18216D;
@@ -19,6 +21,7 @@
     --light-blue-color: #005FEC;
     --flexible-border: #d3d4d4;
     --dark-grey: #232629;
+    --testimonial-color: #fafafa;
 }
 
 * {
