@@ -40,7 +40,7 @@
 
 .integrate__wrapper-img {
     width: 690px;
-    height: 437px;
+    max-height: 437px;
 }
 
 .integrate__img {
