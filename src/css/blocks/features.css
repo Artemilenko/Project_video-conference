@@ -2,7 +2,7 @@
     padding-top: 133px;
 }
 
-.features__wrapper {
+.features__container {
     width: 1120px;
     margin: 0 auto;
     padding-bottom: 130px;
@@ -23,7 +23,7 @@
     justify-content: space-between;
 }
 
-.features__icon-wrapper {
+.features__wrapper-icon {
     width: 72px;
     height: 72px;
     margin-bottom: 28px;
