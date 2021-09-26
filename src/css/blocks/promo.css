@@ -56,6 +56,10 @@
     transition: all 0.3s ease;
 }
 
+.promo__wrapper-img-mini {
+    display: none;
+}
+
 .promo__app {
     width: 1110px;
     margin: 0 auto;
@@ -63,6 +67,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.promo__subtitle {
+    width: 494px;
 }
 
 .promo__app-info {
