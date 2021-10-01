@@ -1,17 +1,19 @@
 .flexible {
     padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .flexible__container {
     margin: 0 auto;
-    width: 1155px;
+    padding: 0 5px;
+    max-width: 1155px;
     text-align: center;
 }
 
 .flexible__description {
     margin: 0 auto;
     margin-top: 20px;
-    width: 542px;
+    max-width: 542px;
 }
 
 .flexible__toggle {
@@ -30,7 +32,7 @@
 .flexible__toggle-button {
     width: 135px;
     height: 100%;
-    background-color: none;
+    background-color: transparent;
     border-radius: 6px;
     border: none;
     font-weight: 500;
@@ -47,12 +49,11 @@
 
 .flexible__plans {
     margin-top: 80px;
-    margin-bottom: 130px;
     display: grid;
     grid-template: auto / repeat(auto-fill, 355px);
     grid-auto-rows: auto;
     justify-content: center;
-    gap: 45px;
+    gap: 40px;
     text-align: left;
     position: relative;
 }
